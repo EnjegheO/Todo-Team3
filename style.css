@@ -6,8 +6,57 @@ body{
 	width: 1440px;
 	height: 1024px;
 	position: relative;
+	font-family: 'Roboto' sans-serif;
+	margin-left:0;
+	margin-bottom:0;
+	padding-bottom:0;
 }
-#white{
+header#header{
+  display:flex;
+  position:absolute;
+}
+img{
+  width:75px;
+  height:75px;
+  top:31px;
+  left:97px;
+}
+#header  p{
+  top:47px;
+  left:207px;
+  font-size:36px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#header > input{
+  width:371px;
+  height:62px;
+  top:31px;
+  left:639px;
+  border-radius:5px;
+  font-size:25px;
+  margin-left:400px;
+  margin-top:30px;
+}
+
+#date{
+  color:#000000;
+  top:21.08px;
+  left:107.36px;
+}
+#tuesday{
+  font-size:20px;
+  margin-bottom:0;
+}
+p + p{
+  font-size:30px;
+}
+
+p span{
+  font-size:45px;
+  font-weight:bold;
+}
+#main{
 	width: 981px;
 	height: 896.08px;
 	position: absolute;
@@ -21,6 +70,8 @@ body{
 	height: 65px;
 	background-color: #C9DAF0;
 	border-radius: 5px;
+	text-align:center;
+	padding-top:7px;
 }
 #div1{
 	position: absolute;
@@ -28,8 +79,6 @@ body{
 	left: 107.36px;	
 }
 #div2{
-	width: 499.03px;
-	height: 65px;
 	position: absolute;
 	top: 298.08px;
 	left: 107.36px;
@@ -37,14 +86,97 @@ body{
 	border-radius: 5px;
 }
 #div3{
-	width: 499.03px;
-	height: 65px;
 	position: absolute;
 	top: 393.08px;
 	left: 107.36px;
 	background-color: #C9DAF0;
 	border-radius: 5px;
 }
+#div4{
+  position:absolute;
+  top:631.08px;
+  left:107.36px;
+}
+#div5{
+  position:absolute;
+  top:726.08px;
+  left:107.36px;
+}
 button{
 	display: flex;
+	position:absolute;
+	width:103.55px;
+	height:65px;
+	border-radius:5px;
+	align-content:center;
+	justify-content:center;
+}
+#button1, #button2{
+  top:203.08px;
+}
+#button3, #button4{
+  top:301.08px;
+}
+#button5,#button6{
+  top:396.08px;
+}
+#button7,#button8{
+  top:631.08px;
+}
+#button9,#button10{
+  top:726.08px;
+}
+
+.done,.edit{
+  background-color:#87E77F;
+  left:640.07px;
+}
+.delete{
+  background-color:#E77F8B;
+  left:758.59px;
+}
+#todo{
+  position:absolute;
+  top:125.08px;
+  left:373px;
+  font-size:30px;
+  font-weight:bold;
+  color:#1D1D1D;
+  text-align:center;
+  text-transform:uppercase;
+}
+#donetasks{
+  position:absolute;
+  top:553.08px;
+  left:373px;
+  font-size:30px;
+  font-weight:bold;
+  color:#1D1D1D;
+  text-align:center;
+  text-transform:uppercase;
+}
+#addtask{
+  width:281.95px;
+  height:62px;
+  background-color:#1D1D1D;
+  color:#FFFFFF;
+  top:31px;
+  left:1061px;
+  align-content:center;
+  justify-content:center;
+  font-size:25px;
+}
+#footer{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color:#000000;
+  color:#FFFFFF;
+  text-align:center;
+  width:100%;
+  height:30px;
+  font-size:30px;
+  margin-bottom:0;
+  padding-bottom:30px;
 }
