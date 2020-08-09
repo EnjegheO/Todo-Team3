@@ -3,13 +3,11 @@
 }
 body{
 	background-color: #F2C94C;
-	width: 1440px;
-	height: 1024px;
+	max-width: 1440px;
+	max-height: 1024px;
 	position: relative;
 	font-family: 'Roboto' sans-serif;
-	margin-left:0;
-	margin-bottom:0;
-	padding-bottom:0;
+	margin:auto;
 }
 header#header{
   display:flex;
