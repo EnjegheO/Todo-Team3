@@ -1,0 +1,72 @@
+/* HEADER */
+#page-header {
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-user-details {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.header-task-action {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* align-items: center; */
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.header-user-details-img {
+    width: 20%;
+}
+
+.header-user-details-text {
+    color: white;
+    font-size: 1.75rem;
+    margin-left: 2rem;
+}
+
+.header-task-action-input {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+
+.header-task-action-input:focus {
+    border: 1px solid grey;
+    outline: none;
+}
+
+.header-task-action-btn-text {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: normal;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+}
+
+.header-task-action-btn {
+    display: flex;
+    align-items: center;
+    background: #1D1D1D;
+    border-radius: 5px;
+    padding: .7rem 1.5rem;
+}
+
+.header-task-action-btn:hover {
+    background: #555;
+}
+
+.header-task-action-btn-img {
+    width: 10%;
+}
